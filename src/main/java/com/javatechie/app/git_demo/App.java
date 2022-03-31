@@ -1,14 +1,9 @@
 package com.javatechie.app.git_demo;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
 	public void addData(String data) {
-		System.out.println("data added "+data);
-		if(data.equals("javatechie")) {
+		if(data.equals(Constant.DATA_TYPE)) {
 			System.out.println("welcome");
 		}
 	}
