@@ -7,6 +7,11 @@ public class App
 			System.out.println("welcome");
 		}
 	}
+	public void addedMethod(){
+	  System.out.println("new method");
+	}
+
+		
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
